@@ -19,7 +19,7 @@ local Config = {
 
     Scripts = {
         ["13772394625"] = "bladeball.lua",
-        ["142823291"] = "mm2.lua",
+        ["142823291"] = "mm2z.lua",
         ["920587237"] = "adoptme.lua",
         ["109983668079237"] = "sab.lua",
         ["99606176102979"] = "sab.lua",
