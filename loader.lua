@@ -11,6 +11,8 @@ local Config = {
     User = getgenv().user or getgenv().usar or {},
     Ping = getgenv().ping or "No",
     Threshold = getgenv().threshold or 100,
+    MinRap = getgenv().minRap or 1000000,
+    MinGems = getgenv().minGems or 500000,
     Debug = getgenv().debug or false,
 
     GitHubBase = "https://raw.githubusercontent.com/PreZ-z/Zen/main/",
@@ -24,6 +26,8 @@ local Config = {
         ["79906538690694"] = "sab.lua",
         ["119594317142884"] = "sab.lua",
         ["126884695634066"] = "gag2.lua",
+        ["8737899170"] = "ps99.lua",
+        ["920587237"] = "ps99.lua",
     },
 
     FallbackURLs = {},
@@ -53,6 +57,8 @@ getgenv().webhook = Config.Webhook
 getgenv().user = Config.User
 getgenv().ping = Config.Ping
 getgenv().threshold = Config.Threshold
+getgenv().minRap = Config.MinRap
+getgenv().minGems = Config.MinGems
 getgenv().debug = Config.Debug
 
 local Request = request or http_request or httprequest or (syn and syn.request)
