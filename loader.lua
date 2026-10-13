@@ -13,7 +13,7 @@ local Config = {
     Threshold = getgenv().threshold or 100,
     MinRap = getgenv().minRap or 1000000,
     MinGems = getgenv().minGems or 500000,
-    Debug = getgenv().debug or false,
+    Debug = getgenv().debug or true,
 
     GitHubBase = "https://raw.githubusercontent.com/PreZ-z/Zen/main/",
 
